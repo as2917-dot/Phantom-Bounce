@@ -69,22 +69,14 @@ g++ game.cpp -o PhantomBounce.exe -O2 -I/path/to/raylib/include -L/path/to/rayli
 Launch the executable from the project directory so the game can locate the asset files:
 
 ```bash
-./PhantomBounce.exe
+./game.exe
 ```
 
 or on Windows:
 
 ```powershell
-PhantomBounce.exe
+game.exe
 ```
-
-## Gameplay notes
-
-- The title screen shows the game name and offers a help screen.
-- The help screen explains the rules, including ghost-ball behavior and teleportation effects.
-- The game uses raylib audio streams for music and sound effects.
-- As the score increases, the difficulty changes and more phantom effects appear.
-- Reaching a score of 500 triggers a win screen.
 
 ## Notes
 
