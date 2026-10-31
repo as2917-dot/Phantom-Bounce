@@ -1,6 +1,6 @@
 # Phantom Bounce
 
-Phantom Bounce is a fast, arcade-style pong-like reaction game built with C++ and raylib. The player guides a paddle across the bottom of the screen, trying to keep colored balls from hitting a wall of the opposite color while scoring points and surviving increasingly chaotic phantom effects like ghost balls and camouflage.
+Phantom Bounce is a fast, arcade-style pong-like reaction game built with C++ and raylib. The player guides a paddle across the bottom of the screen, trying to avoid colored balls from hitting a wall of the opposite color while scoring points and surviving increasingly chaotic phantom effects like ghost balls and camouflage.
 
 ## What the game is about
 
