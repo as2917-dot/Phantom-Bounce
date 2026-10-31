@@ -1,6 +1,6 @@
 # Phantom Bounce
 
-Phantom Bounce is a fast, arcade-style reaction game built with C++ and raylib. The player guides a paddle across the bottom of the screen, trying to keep colored balls from falling past the boundary while scoring points and surviving increasingly chaotic phantom effects.
+Phantom Bounce is a fast, arcade-style pong-like reaction game built with C++ and raylib. The player guides a paddle across the bottom of the screen, trying to keep colored balls from hitting a wall of the opposite color while scoring points and surviving increasingly chaotic phantom effects like ghost balls and camouflage.
 
 ## What the game is about
 
@@ -8,11 +8,11 @@ The game mixes classic bouncing-ball mechanics with a twist:
 
 - The blue ball and red ball are the main active objects.
 - The paddle is a wide green bar that the player moves left and right.
-- Each time a ball hits the paddle, it bounces back and the score increases.
-- If a blue or red ball reaches the bottom edge without being returned, the game ends and the score resets.
-- There are also ghost/phantom balls that appear later in the game and become more active as the score rises.
-- Phantom balls are semi-transparent at first, can swap positions with active balls, and become more visible as the game progresses.
-- There are special progression moments (for example, after reaching certain score thresholds) that trigger new mechanics like ghost visibility, sound effects, and a final win state.
+- Each time a ball hits the paddle, it bounces back,on hitting a wall of the same color the score increases.
+- If a blue or red ball reaches the opposite color edge, the game ends and the score resets.
+- There are also ghost balls that appear later in the game and become more active as the score rises.
+- Phantom balls are semi-transparent at first, can swap positions with active balls, and become more visible as the game progresses(So they are harder to distinguish from the real balls).
+- There are special progression moments (for example, after reaching certain score thresholds) that trigger new mechanics like camouflage, mute collisions, and a final win state.
 - The game tracks both the current score and the high score.
 
 The core goal is to survive as long as possible and reach the victory condition at a score of 500.
@@ -90,6 +90,3 @@ PhantomBounce.exe
 
 This project is a single-file raylib game and is designed to be run directly from the project folder with all media assets present. If the executable is moved away from the asset folder, sound and textures may fail to load.
 
-## License
-
-No license file is included in the repository, so usage rights are not explicitly specified here. If you want to redistribute or publish this game, check with the repository owner before doing so.
