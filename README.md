@@ -11,7 +11,7 @@ The game mixes classic bouncing-ball mechanics with a twist:
 - Each time a ball hits the paddle, it bounces back,on hitting a wall of the same color the score increases.
 - If a blue or red ball reaches the opposite color edge, the game ends and the score resets.
 - There are also ghost balls that appear later in the game and become more active as the score rises.
-- Phantom balls are semi-transparent at first, can swap positions with active balls, and become more visible as the game progresses(So they are harder to distinguish from the real balls).
+- Phantom balls are semi-transparent at first, can swap positions with active balls, and become more visible as the game progresses (So they are harder to distinguish from the real balls).
 - There are special progression moments (for example, after reaching certain score thresholds) that trigger new mechanics like camouflage, mute collisions, and a final win state.
 - The game tracks both the current score and the high score.
 
